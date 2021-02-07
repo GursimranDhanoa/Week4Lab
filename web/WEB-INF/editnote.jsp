@@ -1,6 +1,6 @@
 <%-- 
-    Document   : editnote
-    Created on : Feb 4, 2021, 2:26:09 PM
+    Document   : viewnote
+    Created on : Feb 4, 2021, 2:25:52 PM
     Author     : 821214
 --%>
 
@@ -9,9 +9,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Edit Note</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Simple Note Keeper</h1>
+        <h2>Edit Note</h2>
+        <form method="post" action="viewnote.jsp">
+            
+            <Strong>Title: </Strong> <input type="text" name="title"><br>
+            <strong>Contents:</strong> <input type="text" name="content"><br>
+            <input type="submit" value="Save">
+        </form>
+        
+        
     </body>
 </html>
