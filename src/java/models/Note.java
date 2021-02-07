@@ -9,8 +9,6 @@ Author: Gur Dhanoa
 
 package models;
 
-
-
 import java.io.Serializable;
 public class Note implements Serializable{
 

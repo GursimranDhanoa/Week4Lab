@@ -14,10 +14,10 @@
     <body>
         <h1>Simple Note Keeper</h1>
         <h2>Edit Note</h2>
-        <form method="post" action="viewnote.jsp">
+        <form method="post" action="note">
             
-            <Strong>Title: </Strong> <input type="text" name="title"><br>
-            <strong>Contents:</strong> <input type="text" name="content"><br>
+            <Strong>Title: </Strong> <input type="text" name="title" value="${title}"><br>
+            <strong>Contents:</strong> <input type="text" name="content" value="${contents}"><br>
             <input type="submit" value="Save">
         </form>
         
