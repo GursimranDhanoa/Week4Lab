@@ -4,23 +4,22 @@ Program: .java      Last Date of this revision: ,2020
 Purpose:
 
 Author: Gur Dhanoa
-*/
-
-
+ */
 package models;
 
 import java.io.Serializable;
-public class Note implements Serializable{
+
+public class Note implements Serializable {
 
     private String title;
     private String content;
-    
+
     public Note() {
         title = "";
         content = "";
     }
-    
-    public Note(String title, String content){
+
+    public Note(String title, String content) {
         this.title = title;
         this.content = content;
     }
@@ -40,9 +39,6 @@ public class Note implements Serializable{
     public void setContent(String content) {
         this.content = content;
     }
-    
- 
-  
 
 }
 
